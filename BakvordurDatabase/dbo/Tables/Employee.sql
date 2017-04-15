@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Employee]
+(
+	[Id] INT NOT NULL, 
+    [SSN] NCHAR(10) NOT NULL, 
+    [FName] VARCHAR(50) NOT NULL, 
+    [LName] VARCHAR(50) NOT NULL, 
+    [EmailAddress] VARCHAR(50) NULL
+	CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED ([Id] ASC)
+)

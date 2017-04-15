@@ -1,0 +1,15 @@
+{
+  "dev": "postgres://postgres:Gata4122@localhost/Bakvordur",
+
+  "test": {
+    "driver": "sqlite3",
+    "filename": ":memory:"
+  },
+
+  "prod": {
+    "driver": "pg",
+    "user": "joe",
+    "password": "toottoot",
+    "database": "petstore"
+  }
+}
